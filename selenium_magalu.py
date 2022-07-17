@@ -1,0 +1,2 @@
+def magalu():
+    print("kkkkk")
