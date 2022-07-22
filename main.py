@@ -80,7 +80,7 @@ while keep_going == True:
                             print(colored("=-=" * 36, 'blue'))
                             quit()
                         elif int(mkt_code_1) == 4:
-                            print(colored("Por gentileza, insira o código de pelo menos um marketplace para prosseguir com a geração do relatório.", 'yellow'))
+                            print(colored("Por gentileza, insira o código de pelo menos um marketplace antes de prosseguir com a geração do relatório.", 'yellow'))
                             print(colored("=-=" * 36, 'blue'))
                             print(marketplaces)
                             continue

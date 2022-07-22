@@ -1,2 +1,2 @@
 def magalu():
-    print("kkkkk")
+    print("Magalu")
