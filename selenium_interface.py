@@ -19,7 +19,7 @@ def mkt_plc_distributor(mkt_plc):
         chrome_drive_version = input(str("Digite o código da versão do seu navegador chrome correspondente a uma das opções listadas: "))
         print(colored("=-=" * 36, 'blue'))
         if int(chrome_drive_version) > 0 and int(chrome_drive_version) < len(available_drivers):
-            driver_path = drivers_path + str(available_drivers[int(chrome_drive_version) - 1]) + "\\"
+            driver_path = drivers_path + str(available_drivers[int(chrome_drive_version) - 1])
             break
     if int(mkt_plc) == 1:
         selenium_shopee.shopee(driver_path)
